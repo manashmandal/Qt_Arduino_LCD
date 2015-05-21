@@ -52,7 +52,6 @@ void Qduino::sendText()
     if (!arduino->isOpen()) QMessageBox::information(this, "Connection Error", "The port is closed! Try again");
     else {
         text = ui->textArea->text().toLatin1();
-        int size = text.size();
         arduino->write(text);
 
     }
