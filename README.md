@@ -2,6 +2,10 @@
 
 An app to Control LCD interfaced with arduino.
 
+## Screenshot
+
+![image](http://i.imgur.com/PxMg713.png)
+
 ## For Simulation:
 * Protues
   * LCD
